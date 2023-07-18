@@ -46,7 +46,7 @@ def extract_img(request):
     
     
 if __name__ == '__main__':
-    best_model_path ='C:/Kas/temp/runner/w/Subhan_Khan/CV/Deployment/Flask-Object-Detection_App/weights/best.pt'
+    best_model_path ='best.pt'
     # models_directory = '/home/rnil/model/weights/'
 
   
@@ -55,4 +55,4 @@ if __name__ == '__main__':
     for key in dictOfModels :
         listOfKeys.append(key)
     
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port= 8080)
