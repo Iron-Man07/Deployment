@@ -55,4 +55,4 @@ if __name__ == '__main__':
     for key in dictOfModels :
         listOfKeys.append(key)
     
-    app.run()
+    app.run(host='0.0.0.0',thread=True,debug=True)
