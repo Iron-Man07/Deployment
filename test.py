@@ -46,7 +46,7 @@ def extract_img(request):
     
     
 if __name__ == '__main__':
-    best_model_path ='C:/Users/subhan.khan1/Downloads/jul18/weights/best.pt'
+    best_model_path ='C:/Kas/temp/runner/w/Subhan_Khan/CV/Deployment/Flask-Object-Detection_App/weights/best.pt'
     # models_directory = '/home/rnil/model/weights/'
 
   
